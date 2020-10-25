@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>test_joysticks</RootNamespace>
+    <RestoreSources>$(RestoreSources);./local-packages</RestoreSources>
+    <!--<RestoreSources>$(RestoreSources);local-packages;https://api.nuget.org/v3/index.json</RestoreSources>
+    -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Opentk" Version="3.2.1" />
+  </ItemGroup>
+
+</Project>
